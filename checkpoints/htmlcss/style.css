@@ -1,15 +1,56 @@
 /* give your page a fun background color */
 
 body {
-    background-color: lightblue;
+    background-color:  #4fabc9;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border: 1px;
+    color: white;
+    text-align: center;
+
+
 }
 
 /* give your header and footer another background color */
 
+h1 {
+    outline-style: groove;
+    outline-color:  ##245f75;
+    outline-width: 7px;
+    color: #246175;
+    background-color: #b1dae7;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-variant: small-caps;
+    margin-right: 150px;
+    margin-left: 150px;
+    border: 1px solid black;
+    padding: 50px 30px 40px 30px;
 
+}
 
 /* define the font for your header */
 
 /* remove the bullets from your unordered list */
 
+ul {
+    list-style-type:none;
+    letter-spacing: 1px;
+    line-height: 135%;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+
 /* make your paragraph italic and a color that is not black */
+
+p {
+    color: white;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 160%;
+    text-shadow: 1px 1px black;
+}
